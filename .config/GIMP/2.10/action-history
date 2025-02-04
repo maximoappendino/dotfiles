@@ -1,0 +1,11 @@
+# GIMP action-history
+
+(history-item "script-fu-guide-new-percent" 1)
+(history-item "file-export-as" 4)
+(history-item "select-invert" 0)
+(history-item "file-open" 0)
+(history-item "plug-in-guillotine" 1)
+(history-item "image-new" 0)
+(history-item "file-quit" 1)
+
+# end of action-history

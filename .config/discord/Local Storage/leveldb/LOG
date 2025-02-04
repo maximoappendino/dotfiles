@@ -1,0 +1,20 @@
+2025/01/29-23:38:10.071 374 Reusing MANIFEST /home/maximo/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/01/29-23:38:10.091 374 Recovering log #66
+2025/01/29-23:38:10.093 374 Reusing old log /home/maximo/.config/discord/Local Storage/leveldb/000066.log 
+2025/01/29-23:39:11.418 375 Level-0 table #70: started
+2025/01/29-23:39:11.422 375 Level-0 table #70: 41220 bytes OK
+2025/01/29-23:39:11.424 375 Delete type=0 #66
+2025/01/29-23:39:11.425 375 Compacting 4@0 + 2@1 files
+2025/01/29-23:39:11.449 375 Generated table #71@0: 6 keys, 2458421 bytes
+2025/01/29-23:39:11.466 375 Generated table #72@0: 37 keys, 890328 bytes
+2025/01/29-23:39:11.466 375 Compacted 4@0 + 2@1 files => 3348749 bytes
+2025/01/29-23:39:11.468 375 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/01/29-23:39:11.468 375 Delete type=2 #64
+2025/01/29-23:39:11.468 375 Delete type=2 #60
+2025/01/29-23:39:11.468 375 Delete type=2 #59
+2025/01/29-23:39:11.468 375 Delete type=2 #62
+2025/01/29-23:39:11.468 375 Delete type=2 #70
+2025/01/29-23:39:11.468 375 Delete type=2 #67
+2025/01/29-23:42:34.897 374 Level-0 table #74: started
+2025/01/29-23:42:34.920 374 Level-0 table #74: 3323454 bytes OK
+2025/01/29-23:42:34.922 374 Delete type=0 #69
