@@ -1,23 +1,33 @@
-" set
-syntax enable
-colorscheme slate
-set mouse=a
-
-
-
-" vim plug
+" .vimrc
+" Vim-Plug
 call plug#begin('~/.vim/plugged')
-
-" Plug 'example/example', { 'for': 'markdown'}
 Plug 'bfrg/vim-glfw-syntax'
 Plug 'bfrg/vim-c-cpp-modern'
 Plug 'Kryptocron/glfw.vim'
 Plug 'jasonccox/vim-wayland-clipboard'
+Plug 'morhetz/gruvbox'
+call plug#end()
 
+" Gruvbbox settings
+let g:gruvbox_bold = '1'
+let g:gruvbox_italic = '1'
+let g:gruvbox_transparent_bg = '1'
+let g:gruvbox_underline = '1'
+let g:gruvbox_undercurl = '1'
+let g:gruvbox_termcolors = '256'
+let g:gruvbox_contrast_dark = 'soft' "soft, medium, hard
+let g:gruvbox_hls_cursor = 'orange'
+let g:gruvbox_background = 'dark'
 
+" Syntax and highlights
+syntax on
+syntax enable
+set t_Co=256
 
-" Yank to system clipboard using wl-copy
-vnoremap y :w !wl-copy<CR><CR>
+" Colorschemes
+set background=dark
+colorscheme gruvbox
 
-" Paste from system clipboard using wl-paste
-nnoremap p :r !wl-paste<CR>
+" Mouse
+set mouse=a
+
