@@ -4,7 +4,7 @@ if status is-interactive
     starship init fish | source
 end
 ### ALIAS ###
-#alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME' # my first git
+# alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME' # my first git
 
 # List Directory
 alias l='eza -lh  --icons=auto' # long list
